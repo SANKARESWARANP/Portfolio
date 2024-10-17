@@ -1,0 +1,72 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+.container{
+    width: 20%;
+    height: 100vh;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(182, 80, 36, 0.95);
+}
+.image{
+    padding: 20%;
+    clip-path: content-box;
+    border-radius: 50%;
+    border: 10px solid black;
+}
+.navigation  ul li {
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    list-style: none;
+    font-weight: bolder;
+}
+.navigation ul li a{
+    color: rgb(165, 159, 159);
+    opacity: 10px;
+    text-decoration: none;
+}
+.navigation ul li a:hover{
+    color: white;
+    transition: 1s;
+}
+/* ------------------------EDUCATION----------------------------- */
+.about{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    left: 130%;
+    width: 150vh;
+}
+
+.about h1{
+    font-size: 70px;
+    margin-bottom: 50px;
+    color: rgb(40, 40, 40);
+}
+
+.about h4{
+    color: rgb(49, 49, 49);
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.about p{
+    color: gray;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.about span{
+    color: orangered;
+    float: right;
+}
+
